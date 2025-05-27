@@ -1,69 +1,105 @@
 #  COVID-19 Data Dashboard: From Comorbidities to Capacity
 
-This project is my attempt to explore how COVID-19 affected the world — not just through numbers, but through patterns, vulnerabilities, and responses that shaped outcomes globally.
+This dashboard explores how COVID-19 mortality was influenced not just by infection counts, but by deeper health, policy, and infrastructure factors across the globe. Using real-world data and Tableau visualizations, I tried to go beyond the headlines — to understand the patterns behind the pandemic.
 
 ---
 
-##  What I Built
+##  Data Journey
 
-I created this interactive Tableau dashboard to understand and visualize how different factors — like pre-existing health conditions, healthcare capacity, government policies, and vaccination rates — impacted COVID-19 death trends across countries.
+COVID-19 was not just a virus — it was a stress test for global healthcare systems, policy-making, and social equity. In this project, I asked:  
+- Did pre-existing health conditions like diabetes worsen outcomes?
+- Were stricter government policies effective in reducing death rates?
+- How much did vaccination and hospital readiness matter?
 
----
-
-##  My Dashboard Tells
-
-###  1. Global COVID-19 Death Trends  
-I started by visualizing how new deaths evolved over time. The spikes in the middle months clearly show the intensity of global waves and how differently each continent was impacted.
-
-###  2. Deaths vs. Diabetes Prevalence  
-This scatter plot helped me explore a big question: were people with existing conditions more at risk?  
-The data suggests that countries with higher diabetes prevalence did see more deaths — confirming how comorbidities matter.
-
-###  3. Government Stringency vs. Deaths  
-Here, I looked at how policy restrictions aligned with death trends.  
-What I found was fascinating: strict rules didn’t always mean fewer deaths, possibly because of timing, enforcement, or other unseen factors.
-
-###  4. Vaccination Rate vs. Death Rate  
-I created a world map to visualize vaccination coverage against death rates.  
-There’s a clear pattern — countries with higher vaccination rates typically had fewer deaths. It reinforces how critical vaccination was in saving lives.
-
-###  5. Hospital Infrastructure and Strain  
-Finally, I wanted to look at the role of healthcare systems.  
-This bubble chart compares hospital beds and ICU usage. It was evident that under-resourced regions faced more strain and worse outcomes.
+To answer these, I created five key visualizations:
 
 ---
 
-##  What I Learned
+###  1. Global COVID-19 Death Trends
 
-- Health conditions like diabetes made populations more vulnerable  
-- Strict policies helped — but timing and context were key  
-- Vaccines saved lives, and countries that deployed them early saw better results  
-- Healthcare capacity was a make-or-break factor during surges  
+> **What I Saw:**  
+Spikes in new deaths revealed clear waves of infection, with each continent experiencing peaks at different times.
 
----
-
-##  Tools I Used
-
-- **Tool**: Tableau for dashboard creation  
-- **Data Source**: Our World in Data  
-- **Visual Types**:  
-  - Line chart  
-  - Scatter plot  
-  - Dual-axis combo  
-  - Filled maps  
-  - Packed bubbles  
+> **Why It Matters:**  
+This helped set the foundation — showing how the pandemic evolved geographically and temporally.
 
 ---
 
-##  Why I Did This
+###  2. Deaths vs. Diabetes Prevalence
 
-I believe data tells stories — and this project was about learning to ask the right questions, not just analyze numbers.  
-Building this dashboard helped me connect technical skills with real-world impact, and I hope it does the same for others who explore it.
+> **What I Saw:**  
+Countries with higher diabetes prevalence often had higher death rates per million.
+
+> **Why It Matters:**  
+Comorbidities like diabetes made populations more vulnerable — data confirmed what doctors feared.
 
 ---
 
-##  Explore It Yourself
+###  3. Government Stringency vs. Deaths
 
-- Use filters to explore by country or continent  
-- Hover over any chart for detailed tooltips  
-- Click on elements to dig deeper into the story  
+> **What I Saw:**  
+Stricter policies didn’t always lead to fewer deaths — timing and consistency varied.
+
+> **Why It Matters:**  
+It showed that just enforcing restrictions isn’t enough — public compliance and policy timing are crucial.
+
+---
+
+###  4. Vaccination Rate vs. Death Rate
+
+> **What I Saw:**  
+Countries with higher vaccination coverage saw significantly fewer deaths.
+
+> **Why It Matters:**  
+Vaccines work — and this map made that visually undeniable.
+
+---
+
+###  5. Hospital Infrastructure and Strain
+
+> **What I Saw:**  
+Under-resourced regions with fewer hospital beds and higher ICU strain experienced more deaths.
+
+> **Why It Matters:**  
+Preparedness in terms of infrastructure is a life-saving factor in future pandemics.
+
+---
+
+##  Key Takeaways
+
+- **Diabetes** is a silent killer during pandemics.
+- **Strict policies** aren’t always effective unless timely and enforced well.
+- **Vaccines** are essential — countries that prioritized them saved lives.
+- **Healthcare infrastructure** can either hold the line or collapse under pressure.
+
+---
+
+##  Tools & Data
+
+- **Tool Used**: Tableau  
+- **Data Source**: [Our World in Data - COVID-19 Dataset](https://ourworldindata.org/coronavirus-source-data)  
+- **Visuals Created**:
+  - Line chart (trends)
+  - Scatter plot (risk factors)
+  - Dual-axis bar & line (policy response)
+  - Geographic map (vaccinations)
+  - Packed bubble (infrastructure)
+
+---
+
+##  Why I Built This
+
+I believe good data storytelling is about more than just charts — it’s about curiosity, empathy, and making insight accessible. This dashboard helped me blend technical skills with real-world meaning, and I hope it helps others reflect on what data can really tell us when we listen closely.
+
+---
+
+##  Explore the Dashboard
+
+- **Use filters** to isolate regions or countries.
+- **Hover over charts** to see detailed tooltips.
+- **Click through elements** to explore patterns interactively.
+
+
+
+---
+
